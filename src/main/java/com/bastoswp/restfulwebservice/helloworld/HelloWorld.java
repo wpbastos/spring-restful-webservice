@@ -1,10 +1,7 @@
-package com.bastoswp.restfulwebservice;
+package com.bastoswp.restfulwebservice.helloworld;
 
-public class HelloWorldBean {
-
-    private String message;
-
-    public HelloWorldBean(String message) {
+public class HelloWorld {
+    public HelloWorld(String message) {
         this.message = message;
     }
 
@@ -21,4 +18,5 @@ public class HelloWorldBean {
         return String.format("HelloWorldBean [message='%s']", this.message);
     }
 
+    private String message;
 }
